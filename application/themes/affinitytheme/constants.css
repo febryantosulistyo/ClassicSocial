@@ -1,0 +1,136 @@
+/*Affinity Theme - by Skayz Web Styler*/
+
+/*DEFAULT STYLES FOR THIS THEME*/
+
+@constants
+{
+  /*
+  SKAYZ WEB STYLER
+  Replace the following color codes if you want to change your theme colors (*note: it will affect all the items that use the same color code).
+  */
+  theme_main_menu: #9C1F31;
+  theme_main_tabs: #005373;
+  theme_profile_tabs: #005373;
+  theme_menu_borders_dark: #333;
+  theme_menu_buttons_font: #FFF;
+  theme_footer_background: #EEE;
+  theme_footer_border: #00B3EF;
+  theme_light_background: #777;
+  theme_lighter_background: #EEE;
+  theme_dark_color: #333;
+  theme_darkest_color: #000;
+  theme_blue_links: #005BA7;
+
+  /*
+  PAGE WIDTHS & BACKGROUND COLOR
+  Specify the top bar wrapper width (which contains the mini menu, logo, and main menu
+  by default), the footer width, and the width of left & right-side columns.
+  */
+  theme_footer_width: 780px;
+  theme_content_width: 970px;
+  theme_content_columns_left_width: 178px;
+  theme_content_columns_right_width: 200px;
+
+  /* 
+  TEXT & LINKS
+  These values affect the size and colors of your text and links throughout your layout.
+  */
+  theme_font_family: arial, verdana, sans-serif;
+  theme_font_size: 12px;
+  theme_font_color: #333;
+  theme_font_color_light: #555;
+  theme_text_align: left;
+  theme_link_decoration: none;
+  theme_link_decoration_hover: underline;
+
+  /* 
+  BORDER COLORS
+  These colors are mostly applied to borders that separate items in lists of content.
+  */
+  theme_border_color: #ccc;
+  theme_border_light_color: #E9E9E9;
+
+  /*
+  WIDGET BOX BORDER COLORS
+  These colors are applied to borders around or within boxes that have a background color,
+  like widgets.
+  */
+  theme_foreground_border_color_light: #d7e8f1;
+  theme_foreground_background_color: #fff;
+
+  /*
+  INPUT FIELDS AND BUTTONS
+  These values style input fields and buttons that appear throughout the layout.
+  */
+  theme_input_background_color: #F0F0EF;
+  theme_input_font_color: #555;
+  theme_input_border_colors: #8E8E8E #E8E8E8 #E8E8E8 #8E8E8E;
+  theme_button_font_color: #FFF;
+
+  /*
+  INLINE PULLDOWN MENUS
+  These colors style the inline pulldown menus that appear throughout the layout.
+  */
+  theme_pulldown_background_color: #D9D9D9;
+  theme_pulldown_background_color_hover: #DEDEDE;
+  theme_pulldown_background_color_active: #A1A1A1;
+  theme_pulldown_font_color_active: #fff;
+  theme_pulldown_contents_background_color: #F6F6F3;
+  theme_pulldown_contents_background_color_alt: #FFF;
+
+  /*
+  Mobile Plugin Extra Constants
+  */
+  theme_headline_color: #717171;
+  theme_headline_size_large: 1.5em;
+  theme_headline_size_medium: 1.3em;
+  theme_body_background_color: #fff;
+  theme_button_background_color: #619dbe;
+  theme_button_background_color_hover: #7eb6d5;
+  theme_button_font_color: #fff;
+  theme_button_border_color: #50809b;
+  theme_form_background_color: #f4f9fb;
+  theme_form_label_font_color: #777;
+  theme_buttontabs_font_color: #777;
+  theme_buttontabs_font_color_hover: #555;
+  theme_buttontabs_font_color_active: #fff;
+  theme_buttontabs_background_color: #d4e5ee;
+  theme_buttontabs_background_color_hover: #c9dde7;
+  theme_buttontabs_background_color_active: #55677a;
+  theme_tag_background_color: #d3e6ef;
+  theme_topbar_menu_link_color: #fff;
+}
+
+
+/*
+GLOBAL MIXINS
+These groups of styles called "mixins" are included in other
+classes throughout the stylesheet.
+*/
+
+/* Gives an element a background and/or border */
+=foreground
+{
+  background-color: $theme_foreground_background_color;
+}
+
+/* Gives an element a drop shadow */
+=shadow($offset_x = 0, $offset_y = 0, $blur_radius = 0, $spread_radius = 0, $shadow_color = "#aaa")
+{
+  -moz-box-shadow: $offset_x $offset_y $blur_radius $spread_radius $shadow_color;
+  -webkit-box-shadow: $offset_x $offset_y $blur_radius $spread_radius $shadow_color;
+  box-shadow: $offset_x $offset_y $blur_radius $spread_radius $shadow_color;
+}
+
+/* Gives an element rounded corners. */
+=rounded()
+{
+  
+}
+
+/* Prevents users from selecting contents */
+=noselect
+{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
