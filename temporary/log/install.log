@@ -1,0 +1,446 @@
+2016-01-01T23:49:08+00:00 WARN (4): [8192] iconv_set_encoding(): Use of iconv.internal_encoding is deprecated (C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php) [553]
+Error Code: 5e4e2c
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php(553): iconv_set_encoding('internal_encoding', 'UTF-8')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\EmailAddress.php(497): Zend_Validate_Hostname->isValid('classicsocial.com')
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\EmailAddress.php(556): Zend_Validate_EmailAddress->_validateHostnamePart()
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Form\Element.php(1414): Zend_Validate_EmailAddress->isValid('admin@classicsocial.com', Array)
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Form.php(2269): Zend_Form_Element->isValid('admin@classicsocial.com', Array)
+#5 C:\xampp\htdocs\app\classicsocial\install\controllers\InstallController.php(894): Zend_Form->isValid(Array)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): InstallController->accountAction()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('accountAction')
+#8 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#9 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#12 {main}
+
+2016-01-01T23:49:08+00:00 WARN (4): [8192] iconv_set_encoding(): Use of iconv.internal_encoding is deprecated (C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php) [649]
+Error Code: aa7d89
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php(649): iconv_set_encoding('internal_encoding', 'UTF-8')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\EmailAddress.php(497): Zend_Validate_Hostname->isValid('classicsocial.com')
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\EmailAddress.php(556): Zend_Validate_EmailAddress->_validateHostnamePart()
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Form\Element.php(1414): Zend_Validate_EmailAddress->isValid('admin@classicsocial.com', Array)
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Form.php(2269): Zend_Form_Element->isValid('admin@classicsocial.com', Array)
+#5 C:\xampp\htdocs\app\classicsocial\install\controllers\InstallController.php(894): Zend_Form->isValid(Array)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): InstallController->accountAction()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('accountAction')
+#8 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#9 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#12 {main}
+
+2016-01-02T00:30:43+00:00 WARN (4): [8192] iconv_set_encoding(): Use of iconv.internal_encoding is deprecated (C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php) [553]
+Error Code: 72d811
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php(553): iconv_set_encoding('internal_encoding', 'UTF-8')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(445): Zend_Validate_Hostname->isValid('service.socialengine.net')
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(277): Zend_Uri_Http->validateHost()
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(154): Zend_Uri_Http->valid()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri.php(143): Zend_Uri_Http->__construct('http', '//service.socialengine.net/')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Http\Client.php(305): Zend_Uri::factory('http://service.socialengine.net/')
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Package\Manager\Repository.php(185): Zend_Http_Client->setUri('http://service.socialengine.net/')
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Package\Manager\Repository.php(224): Engine_Package_Manager_Repository->getClient()
+#8 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(117): Engine_Package_Manager_Repository->queryList()
+#9 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->indexAction()
+#10 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#11 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#12 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#13 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#14 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#15 {main}
+
+2016-01-02T00:30:43+00:00 WARN (4): [8192] iconv_set_encoding(): Use of iconv.internal_encoding is deprecated (C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php) [649]
+Error Code: 6ceaad
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php(649): iconv_set_encoding('internal_encoding', 'UTF-8')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(445): Zend_Validate_Hostname->isValid('service.socialengine.net')
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(277): Zend_Uri_Http->validateHost()
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(154): Zend_Uri_Http->valid()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri.php(143): Zend_Uri_Http->__construct('http', '//service.socialengine.net/')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Http\Client.php(305): Zend_Uri::factory('http://service.socialengine.net/')
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Package\Manager\Repository.php(185): Zend_Http_Client->setUri('http://service.socialengine.net/')
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Package\Manager\Repository.php(224): Engine_Package_Manager_Repository->getClient()
+#8 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(117): Engine_Package_Manager_Repository->queryList()
+#9 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->indexAction()
+#10 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#11 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#12 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#13 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#14 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#15 {main}
+
+2016-01-02T00:30:43+00:00 WARN (4): [8192] iconv_set_encoding(): Use of iconv.internal_encoding is deprecated (C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php) [553]
+Error Code: 230d44
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php(553): iconv_set_encoding('internal_encoding', 'UTF-8')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(445): Zend_Validate_Hostname->isValid('service.socialengine.net')
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(277): Zend_Uri_Http->validateHost()
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(245): Zend_Uri_Http->valid()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri.php(57): Zend_Uri_Http->getUri()
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Http\Client\Adapter\Curl.php(276): Zend_Uri->__toString()
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Http\Client.php(1073): Zend_Http_Client_Adapter_Curl->write('GET', Zend_Uri_Http, '1.1', Array, '')
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Package\Manager\Repository.php(233): Zend_Http_Client->request()
+#8 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(117): Engine_Package_Manager_Repository->queryList()
+#9 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->indexAction()
+#10 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#11 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#12 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#13 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#14 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#15 {main}
+
+2016-01-02T00:30:43+00:00 WARN (4): [8192] iconv_set_encoding(): Use of iconv.internal_encoding is deprecated (C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php) [649]
+Error Code: 23cc0d
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Validate\Hostname.php(649): iconv_set_encoding('internal_encoding', 'UTF-8')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(445): Zend_Validate_Hostname->isValid('service.socialengine.net')
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(277): Zend_Uri_Http->validateHost()
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri\Http.php(245): Zend_Uri_Http->valid()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Uri.php(57): Zend_Uri_Http->getUri()
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Http\Client\Adapter\Curl.php(276): Zend_Uri->__toString()
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Http\Client.php(1073): Zend_Http_Client_Adapter_Curl->write('GET', Zend_Uri_Http, '1.1', Array, '')
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Package\Manager\Repository.php(233): Zend_Http_Client->request()
+#8 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(117): Engine_Package_Manager_Repository->queryList()
+#9 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->indexAction()
+#10 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#11 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#12 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#13 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#14 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#15 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\widget-fancymenu-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: dbf00a
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/widget-fanc...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\modules\User\settings\my-upgrade-4.8.6-4.8.7.sql (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 80b693
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/User/setting...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\modules\User\widgets\browse-menu\Controller.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 4c30fd
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/User/widgets...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\modules\User\widgets\browse-menu (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 55a80d
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/User/widgets...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\modules\User\widgets\browse-search\Controller.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 70f593
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/User/widgets...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\modules\User\widgets\browse-search (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 2b140a
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/User/widgets...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-user-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 1688ce
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-user...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-storage-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b97d64
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-stor...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-payment-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: e900e5
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-paym...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-messages-4.8.7.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: ede807
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-mess...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-invite-4.8.7.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 727b16
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-invi...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-fields-4.8.8.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 2376e6
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-fiel...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-core-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 8111a5
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-core...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\module-activity-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: b878b4
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-acti...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\library-scaffold-4.8.8.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 7e5faa
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/library-sca...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Date.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: eb3dd4
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/libraries/Engine/Dat...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\library-engine-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 9ba747
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/library-eng...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\core-install-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 6030d0
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/core-instal...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\install\import\Ning\Activities.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: aa91ca
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('install/import/Ning/Activities.p...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\install\import\Ning\BlogComments.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 027b85
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('install/import/Ning/BlogComments...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\install\import\Ning\CoreContent.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 3450fd
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('install/import/Ning/CoreContent....')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\install\import\Ning\CorePages.php (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 56d08d
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('install/import/Ning/CorePages.ph...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T00:32:52+00:00 WARN (4): [2] stat(): stat failed for C:\xampp\htdocs\app\classicsocial\application\packages\core-base-4.8.9.json (C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 03d6bf
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\xampp\htdocs\app\classicsocia...')
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\xampp\htdocs\app\classicsocia...')
+#2 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/core-base-4...')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#9 {main}
+
+2016-01-02T06:37:54+00:00 CRIT (2): exception 'Engine_Exception' with message 'No transaction id is stored in the session.' in C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php:1376
+Stack trace:
+#0 C:\xampp\htdocs\app\classicsocial\install\controllers\ManageController.php(1006): ManageController->_loadTransaction()
+#1 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Action.php(516): ManageController->completeAction()
+#2 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('completeAction')
+#3 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#4 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 C:\xampp\htdocs\app\classicsocial\application\libraries\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 C:\xampp\htdocs\app\classicsocial\install\index.php(87): Zend_Application->run()
+#7 {main}
